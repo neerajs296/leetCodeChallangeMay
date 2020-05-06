@@ -10,8 +10,8 @@ var charCount = {};
  }    
  for(var j = 0; j < s.length; j++){
      if(charCount[s[j]] === 'One Time'){
-       console.log( j);      
+       return j;     
      }
  }
 
-console.log(r);
+return  -1;
